@@ -1,0 +1,8 @@
+---
+- name: PingToServers
+  hosts: all
+
+  tasks:
+    - name: Pinging
+      win_ping: 
+        
