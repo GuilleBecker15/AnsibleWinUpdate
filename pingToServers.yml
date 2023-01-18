@@ -1,3 +1,6 @@
+#Archivo inicial. 
+#Se realiza un win_ping a todos los hosts del inventario.
+
 ---
 - name: PingToServers
   hosts: all
